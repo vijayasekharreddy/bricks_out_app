@@ -1,0 +1,49 @@
+body {
+	background-image: url('/breakout_bg.png');
+	background-repeat:no-repeat;
+	background-size: cover;
+	width: 100%;
+	position: relative; 
+}
+.container{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#myCanvas{
+    text-align: center;
+    display: block;        
+    background-color: #000;
+    border:5px solid #202429;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+header{
+	font-size: 75px;
+	font-weight: bold;
+	color: #d06300;
+	padding: 25px 0 0 0;
+}
+.help{
+	background-color: #6C2ADF;
+	border:2px solid #FFFFFF;
+	border-radius: 3px;
+	/*padding:0 5px 0 5px;*/
+	color: #FFFFFF;
+}
+button{
+	background-color: #6C2ADF;
+	border:2px solid #FFFFFF;
+	border-radius: 5px;
+	padding:5px 25px 5px 25px;
+	color: #FFFFFF;
+}
+h3, h2{
+	color: #d06300;
+}
+.info{
+	color: #fff; 
+	font-weight: bold; 
+	margin-top: 10px; 
+	padding: 10px 0;
+	font-size: 20px;
+}
